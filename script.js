@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 if (window === window.top) {
-    
+
 } else {
 
 }
