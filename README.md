@@ -5,8 +5,9 @@
 2. Add a new script, paste the content of `script.js` and save
 
 ### How to use the overlay
-1. You have a settings button here
-<img src=".images/settingsButton.png" alt="settings button">
+1. You have a settings button here<br/>
+![image](images/settingsButton.png)<br/><br/>
+
 
 2. Use the friend system
     - The token system:
@@ -16,10 +17,10 @@
 
     - How to use friends system:
 
-        You can add friend when they have the overlay. To to that you just need to go on the user profile in the room players list
-        <img src="./images/profile.png" alt="user profile">
-        After that everything is accessible via this button
-        <img src="./images/friendListPane.png" alt="friend list pane">
+        You can add friend when they have the overlay. To to that you just need to go on the user profile in the room players list<br/>
+        ![image](images/profile.png)<br/><br/>
+        After that everything is accessible via this button<br/>
+        ![image](images/friendListPane.png)<br/>
 
 
 **This overlay is more social-oriented than the others, so if you want it to be useful, recommend it to your friends !**
