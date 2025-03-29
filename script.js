@@ -7,8 +7,9 @@
 // @match        https://jklm.fun/*
 // @match        https://*.jklm.fun/games/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jklm.fun
-// @grant       GM_xmlhttpRequest
-// @connect     gigaoverlay.online
+// @updateURL    https://raw.githubusercontent.com/giganotosorus/GigaOverlay/refs/heads/main/script.js
+// @grant        GM_xmlhttpRequest
+// @connect      gigaoverlay.online
 // ==/UserScript==
 
 const roomCode = location.pathname.substr(1, 4).toUpperCase();
