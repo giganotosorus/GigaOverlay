@@ -10,12 +10,12 @@
 // @updateURL    https://raw.githubusercontent.com/giganotosorus/GigaOverlay/refs/heads/main/script.js
 // @downloadURL  https://raw.githubusercontent.com/giganotosorus/GigaOverlay/refs/heads/main/script.js
 // @grant        GM_xmlhttpRequest
-// @connect      giganotosorus.eu
+// @connect      gigaoverlay.giganotosorus.eu
 // ==/UserScript==
 
 const roomCode = location.pathname.substr(1, 4).toUpperCase();
 
-const url = "https://giganotosorus.eu/api/overlay?file=" + (!roomCode ? "overlay_home" : window.top === window.self ? "overlay_room" : "overlay_game");
+const url = "https://gigaoverlay.giganotosorus.eu/api/overlay?file=" + (!roomCode ? "overlay_home" : window.top === window.self ? "overlay_room" : "overlay_game");
 unsafeWindow.GM_xmlhttpRequest = GM_xmlhttpRequest;
 
 $make('script', document.body, { src: url });
